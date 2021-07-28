@@ -24,6 +24,19 @@ rails db:migrate && rails db:seed
 rails s
 ```
 
+## Frontend
+The frontend is served at localhost:3000.
+
+### Running the tests
+```bash
+cd frontend
+```
+
+### Running the app
+```bash
+cd frontend
+```
+
 ## Decisions
 - I used Rails instead of Sinatra. While Sinatra is lighter weight, Rails is easier to boilerplate
 - I didn't build an endpoint to create the shifts because it wasn't explicitly needed to meet the Acceptance Criteria
