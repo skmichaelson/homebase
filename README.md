@@ -32,3 +32,5 @@ rails s
     - Presence of name on an employee
     - Employee unique identifier (since two employee might have the same name)
     - Shifts have valid inputs
+- Scaling: what happens when the set of shifts becomes very large?
+- Thin out the controller by adding a service layer for the data transformation

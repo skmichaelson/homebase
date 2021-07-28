@@ -111,8 +111,6 @@ jeff_auston_shifts = [
             })
 ]
 
-Employee.create([
-                  { first_name: 'Alfred', last_name: 'Brown', shifts: alfred_brown_shifts },
-                  { first_name: 'Tim', last_name: 'Cannady', shifts: tim_cannady_shifts },
-                  { first_name: 'Jeff', last_name: 'Auston', shifts: jeff_auston_shifts },
-                ])
+Employee.create(first_name: 'Alfred', last_name: 'Brown', shifts: alfred_brown_shifts)
+Employee.create(first_name: 'Tim', last_name: 'Cannady', shifts: tim_cannady_shifts)
+Employee.create(first_name: 'Jeff', last_name: 'Auston', shifts: jeff_auston_shifts)
