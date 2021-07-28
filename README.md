@@ -1,20 +1,23 @@
 # Scheduling App
 Provides online schedule for all employees for the current week
 
-## Running tests
+## Backend
+The API runs at localhost:3001. The default is port 3000, but the frontend will use that port instead.
+
+### Running tests
 ```bash
 bundle install
 bundle exec rspec spec/
 ```
 
-## Running the app
+### Running the app
 ```bash
 bundle install
 rails db:migrate
 rails s
 ```
 
-## Running the app with seeded data
+### Running the app with seeded data
 ```bash
 bundle install
 rails db:migrate && rails db:seed
